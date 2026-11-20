@@ -1,0 +1,3 @@
+# Không có dependency bắt buộc - toolkit chỉ dùng thư viện chuẩn Python.
+# colorama chỉ cần thiết nếu muốn hiển thị màu đẹp hơn trên Windows cmd.exe cũ.
+colorama>=0.4.6; sys_platform == "win32"
